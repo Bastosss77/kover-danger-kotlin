@@ -1,0 +1,23 @@
+[versions]
+kotlin = "2.2.20"
+mavenPublish = "0.34.0"
+dangerKotlinSdk = "1.2"
+mockk = "1.14.6"
+jackson = "2.20.0"
+
+# Configuration
+version = "0.5.1"
+group = "io.github.bastosss77"
+jvmVersion = "21"
+
+[libraries]
+dangerSdk = { module = "systems.danger:danger-kotlin-sdk", version.ref = "dangerKotlinSdk" }
+mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
+kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test-junit", version.ref = "kotlin" }
+jackson-bom = { module = "com.fasterxml.jackson:jackson-bom", version.ref = "jackson" }
+jackson-xml = { module = "com.fasterxml.jackson.dataformat:jackson-dataformat-xml" }
+jackson-kotlin = { module = "com.fasterxml.jackson.module:jackson-module-kotlin" }
+
+[plugins]
+kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+mavenPublish = { id = "com.vanniktech.maven.publish", version.ref = "mavenPublish" }
