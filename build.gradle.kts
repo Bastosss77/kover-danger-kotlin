@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.kotlin)
     alias(libs.plugins.mavenPublish)
+    alias(libs.plugins.kover)
 }
 
 repositories {

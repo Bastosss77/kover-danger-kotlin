@@ -1,12 +1,13 @@
 [versions]
-kotlin = "2.2.20"
-mavenPublish = "0.34.0"
+kotlin = "2.2.21"
+mavenPublish = "0.35.0"
 dangerKotlinSdk = "1.2"
-mockk = "1.14.6"
-jackson = "2.20.0"
+mockk = "1.14.5"
+jackson = "2.20.1"
+kover = "0.9.4"
 
 # Configuration
-version = "0.5.1"
+version = "0.0.1"
 group = "io.github.bastosss77"
 jvmVersion = "21"
 
@@ -21,3 +22,4 @@ jackson-kotlin = { module = "com.fasterxml.jackson.module:jackson-module-kotlin"
 [plugins]
 kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 mavenPublish = { id = "com.vanniktech.maven.publish", version.ref = "mavenPublish" }
+kover = { id = "org.jetbrains.kotlinx.kover", version.ref = "kover" }

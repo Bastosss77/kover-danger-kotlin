@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report name="Kover Gradle Plugin XML report for :">
+    <package name="io/github/bastosss77/danger/kover/parser/xml">
+        <class name="io/github/bastosss77/danger/kover/parser/xml/KoverXmlReportParser" sourcefilename="KoverXmlReportParser.kt">
+            <method name="&lt;init&gt;" desc="()V">
+                <counter type="INSTRUCTION" missed="2" covered="0" />
+                <counter type="BRANCH" missed="0" covered="0" />
+                <counter type="LINE" missed="1" covered="0" />
+            </method>
+            <method name="parse" desc="(Ljava/io/File;)Lio/github/bastosss77/danger/kover/model/KoverReport;">
+                <counter type="INSTRUCTION" missed="14" covered="0" />
+                <counter type="BRANCH" missed="0" covered="0" />
+                <counter type="LINE" missed="1" covered="0" />
+            </method>
+            <counter type="INSTRUCTION" missed="16" covered="0" />
+            <counter type="BRANCH" missed="0" covered="0" />
+            <counter type="LINE" missed="2" covered="0" />
+            <counter type="METHOD" missed="2" covered="0" />
+        </class>
+        <sourcefile name="KoverXmlReportParser.kt">
+            <line nr="7" mi="2" ci="0" mb="0" cb="0" />
+            <line nr="10" mi="14" ci="0" mb="0" cb="0" />
+            <counter type="INSTRUCTION" missed="16" covered="0" />
+            <counter type="BRANCH" missed="0" covered="0" />
+            <counter type="LINE" missed="2" covered="0" />
+        </sourcefile>
+        <counter type="INSTRUCTION" missed="16" covered="0" />
+        <counter type="BRANCH" missed="0" covered="0" />
+        <counter type="LINE" missed="2" covered="0" />
+        <counter type="METHOD" missed="2" covered="0" />
+        <counter type="CLASS" missed="1" covered="0" />
+    </package>
+    <package name="io/github/bastosss77/danger/kover/parser/xml/model">
+        <class name="io/github/bastosss77/danger/kover/parser/xml/model/XmlReport" sourcefilename="XmlReport.kt">
+            <method name="getClassPackage" desc="()Lio/github/bastosss77/danger/kover/parser/xml/model/XmlReportPackage;">
+                <counter type="INSTRUCTION" missed="2" covered="0" />
+                <counter type="BRANCH" missed="0" covered="0" />
+                <counter type="LINE" missed="1" covered="0" />
+            </method>
+            <method name="&lt;init&gt;" desc="(Lio/github/bastosss77/danger/kover/parser/xml/model/XmlReportPackage;)V">
+                <counter type="INSTRUCTION" missed="5" covered="0" />
+                <counter type="BRANCH" missed="0" covered="0" />
+                <counter type="LINE" missed="2" covered="0" />
+            </method>
+            <counter type="INSTRUCTION" missed="7" covered="0" />
+            <counter type="BRANCH" missed="0" covered="0" />
+            <counter type="LINE" missed="3" covered="0" />
+            <counter type="METHOD" missed="2" covered="0" />
+        </class>
+        <class name="io/github/bastosss77/danger/kover/parser/xml/model/XmlReportPackage" sourcefilename="XmlReportPackage.kt">
+            <method name="&lt;init&gt;" desc="(I)V">
+                <counter type="INSTRUCTION" missed="7" covered="0" />
+                <counter type="BRANCH" missed="0" covered="0" />
+                <counter type="LINE" missed="2" covered="0" />
+            </method>
+            <counter type="INSTRUCTION" missed="7" covered="0" />
+            <counter type="BRANCH" missed="0" covered="0" />
+            <counter type="LINE" missed="2" covered="0" />
+            <counter type="METHOD" missed="1" covered="0" />
+        </class>
+        <sourcefile name="XmlReport.kt">
+            <line nr="7" mi="2" ci="0" mb="0" cb="0" />
+            <line nr="10" mi="3" ci="0" mb="0" cb="0" />
+            <line nr="11" mi="2" ci="0" mb="0" cb="0" />
+            <counter type="INSTRUCTION" missed="7" covered="0" />
+            <counter type="BRANCH" missed="0" covered="0" />
+            <counter type="LINE" missed="3" covered="0" />
+        </sourcefile>
+        <sourcefile name="XmlReportPackage.kt">
+            <line nr="3" mi="2" ci="0" mb="0" cb="0" />
+            <line nr="4" mi="5" ci="0" mb="0" cb="0" />
+            <counter type="INSTRUCTION" missed="7" covered="0" />
+            <counter type="BRANCH" missed="0" covered="0" />
+            <counter type="LINE" missed="2" covered="0" />
+        </sourcefile>
+        <counter type="INSTRUCTION" missed="14" covered="0" />
+        <counter type="BRANCH" missed="0" covered="0" />
+        <counter type="LINE" missed="5" covered="0" />
+        <counter type="METHOD" missed="3" covered="0" />
+        <counter type="CLASS" missed="2" covered="0" />
+    </package>
+    <package name="io/github/bastosss77/danger/kover">
+        <class name="io/github/bastosss77/danger/kover/KoverPlugin" sourcefilename="KoverPlugin.kt">
+            <method name="&lt;clinit&gt;" desc="()V">
+                <counter type="INSTRUCTION" missed="7" covered="0" />
+                <counter type="BRANCH" missed="0" covered="0" />
+                <counter type="LINE" missed="2" covered="0" />
+            </method>
+            <method name="getId" desc="()Ljava/lang/String;">
+                <counter type="INSTRUCTION" missed="3" covered="0" />
+                <counter type="BRANCH" missed="0" covered="0" />
+                <counter type="LINE" missed="1" covered="0" />
+            </method>
+            <method name="parse" desc="(Ljava/io/File;)V">
+                <counter type="INSTRUCTION" missed="6" covered="0" />
+                <counter type="BRANCH" missed="0" covered="0" />
+                <counter type="LINE" missed="1" covered="0" />
+            </method>
+            <method name="parsedBy" desc="(Ljava/io/File;)Lio/github/bastosss77/danger/kover/parser/xml/KoverXmlReportParser;">
+                <counter type="INSTRUCTION" missed="17" covered="0" />
+                <counter type="BRANCH" missed="2" covered="0" />
+                <counter type="LINE" missed="1" covered="0" />
+            </method>
+            <counter type="INSTRUCTION" missed="33" covered="0" />
+            <counter type="BRANCH" missed="2" covered="0" />
+            <counter type="LINE" missed="5" covered="0" />
+            <counter type="METHOD" missed="4" covered="0" />
+        </class>
+        <sourcefile name="KoverPlugin.kt">
+            <line nr="8" mi="3" ci="0" mb="0" cb="0" />
+            <line nr="11" mi="2" ci="0" mb="0" cb="0" />
+            <line nr="12" mi="5" ci="0" mb="0" cb="0" />
+            <line nr="16" mi="6" ci="0" mb="0" cb="0" />
+            <line nr="23" mi="17" ci="0" mb="2" cb="0" />
+            <counter type="INSTRUCTION" missed="33" covered="0" />
+            <counter type="BRANCH" missed="2" covered="0" />
+            <counter type="LINE" missed="5" covered="0" />
+        </sourcefile>
+        <counter type="INSTRUCTION" missed="33" covered="0" />
+        <counter type="BRANCH" missed="2" covered="0" />
+        <counter type="LINE" missed="5" covered="0" />
+        <counter type="METHOD" missed="4" covered="0" />
+        <counter type="CLASS" missed="1" covered="0" />
+    </package>
+    <package name="io/github/bastosss77/danger/kover/model">
+        <class name="io/github/bastosss77/danger/kover/model/KoverReport" sourcefilename="KoverReport.kt">
+            <method name="&lt;init&gt;" desc="()V">
+                <counter type="INSTRUCTION" missed="2" covered="0" />
+                <counter type="BRANCH" missed="0" covered="0" />
+                <counter type="LINE" missed="1" covered="0" />
+            </method>
+            <counter type="INSTRUCTION" missed="2" covered="0" />
+            <counter type="BRANCH" missed="0" covered="0" />
+            <counter type="LINE" missed="1" covered="0" />
+            <counter type="METHOD" missed="1" covered="0" />
+        </class>
+        <sourcefile name="KoverReport.kt">
+            <line nr="3" mi="2" ci="0" mb="0" cb="0" />
+            <counter type="INSTRUCTION" missed="2" covered="0" />
+            <counter type="BRANCH" missed="0" covered="0" />
+            <counter type="LINE" missed="1" covered="0" />
+        </sourcefile>
+        <counter type="INSTRUCTION" missed="2" covered="0" />
+        <counter type="BRANCH" missed="0" covered="0" />
+        <counter type="LINE" missed="1" covered="0" />
+        <counter type="METHOD" missed="1" covered="0" />
+        <counter type="CLASS" missed="1" covered="0" />
+    </package>
+    <counter type="INSTRUCTION" missed="65" covered="0" />
+    <counter type="BRANCH" missed="2" covered="0" />
+    <counter type="LINE" missed="13" covered="0" />
+    <counter type="METHOD" missed="10" covered="0" />
+    <counter type="CLASS" missed="5" covered="0" />
+</report>
